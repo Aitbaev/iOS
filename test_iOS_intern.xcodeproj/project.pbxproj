@@ -13,6 +13,7 @@
 		848AE88A1D687E7300C05044 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848AE8881D687E7300C05044 /* Main.storyboard */; };
 		848AE88C1D687E7300C05044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848AE88B1D687E7300C05044 /* Assets.xcassets */; };
 		848AE88F1D687E7300C05044 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848AE88D1D687E7300C05044 /* LaunchScreen.storyboard */; };
+		84F268E51D6A76C000915E1F /* UITextFieldNoCopyPaste.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F268E41D6A76C000915E1F /* UITextFieldNoCopyPaste.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		848AE88B1D687E7300C05044 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848AE88E1D687E7300C05044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848AE8901D687E7400C05044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F268E31D6A76C000915E1F /* UITextFieldNoCopyPaste.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextFieldNoCopyPaste.h; sourceTree = "<group>"; };
+		84F268E41D6A76C000915E1F /* UITextFieldNoCopyPaste.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextFieldNoCopyPaste.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				848AE8851D687E7300C05044 /* ViewController.h */,
 				848AE8861D687E7300C05044 /* ViewController.m */,
 				848AE8881D687E7300C05044 /* Main.storyboard */,
+				84F268E31D6A76C000915E1F /* UITextFieldNoCopyPaste.h */,
+				84F268E41D6A76C000915E1F /* UITextFieldNoCopyPaste.m */,
 				848AE88B1D687E7300C05044 /* Assets.xcassets */,
 				848AE88D1D687E7300C05044 /* LaunchScreen.storyboard */,
 				848AE8901D687E7400C05044 /* Info.plist */,
@@ -152,6 +157,7 @@
 				848AE8871D687E7300C05044 /* ViewController.m in Sources */,
 				848AE8841D687E7300C05044 /* AppDelegate.m in Sources */,
 				848AE8811D687E7300C05044 /* main.m in Sources */,
+				84F268E51D6A76C000915E1F /* UITextFieldNoCopyPaste.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +308,7 @@
 				848AE8951D687E7400C05044 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
